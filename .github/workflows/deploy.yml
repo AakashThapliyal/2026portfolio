@@ -30,9 +30,10 @@ jobs:
 
       - name: Prepare site artifact
         run: |
+          set -euo pipefail
           mkdir -p _site
-          cp index.html _site/
-          cp akashpicture.png _site/
+          cp -v index.html _site/
+          cp -v akashpicture.png _site/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
