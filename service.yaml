@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+
+metadata:
+  name: my2026portfolio-service
+  namespace: my2026portfolio
+
+spec:
+  selector:
+    app: my2026portfolio
+
+  ports:
+  - port: 80
+    targetPort: 80
+
+  type: NodePort

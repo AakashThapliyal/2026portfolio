@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: my2026portfolio-deployment
+  namespace: my2026portfolio
+
+spec:
+  replicas: 2
+
+  selector:
+    matchLabels:
+      app: my2026portfolio
+
+  template:
+    metadata:
+      labels:
+        app: my2026portfolio
+
+    spec:
+      containers:
+      - name: my2026portfolio
+
+        image: aakash22sharma/my2026portfolio:v1
+
+        ports:
+        - containerPort: 80
