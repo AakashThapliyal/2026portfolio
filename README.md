@@ -194,7 +194,7 @@ minikube service my2026portfolio-service -n my2026portfolio
 
 > Replace with your screenshot.
 
-![Portfolio Homepage](screenshots/portfolio-home.png)
+![Portfolio Homepage](Homepage.png)
 
 ---
 
@@ -202,7 +202,7 @@ minikube service my2026portfolio-service -n my2026portfolio
 
 > Screenshot of Docker Hub repository.
 
-![Docker Hub](screenshots/dockerhub.png)
+![Docker Hub](Dockerhub.png)
 
 ---
 
@@ -210,7 +210,7 @@ minikube service my2026portfolio-service -n my2026portfolio
 
 > Running pods after deployment.
 
-![Pods](screenshots/pods.png)
+![Pods](Pods.png)
 
 ---
 
@@ -218,15 +218,7 @@ minikube service my2026portfolio-service -n my2026portfolio
 
 > Output of `kubectl get svc`.
 
-![Service](screenshots/service.png)
-
----
-
-## Deployment
-
-> Output of `kubectl get deployment`.
-
-![Deployment](screenshots/deployment.png)
+![Service](Service.png)
 
 ---
 
@@ -251,7 +243,7 @@ Through this project, I gained hands-on experience with:
 
 📧 Email: iaakashthapliyal@gmail.com
 
-💼 LinkedIn: *(Add your LinkedIn URL here)*
+💼 LinkedIn: https://www.linkedin.com/in/aakash-thapliyal-364b79320/
 
 🐙 GitHub: https://github.com/AakashThapliyal
 
